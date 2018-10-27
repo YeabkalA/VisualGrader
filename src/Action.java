@@ -121,7 +121,7 @@ public class Action {
 	public static void emailGrades() {
 		for(Student s: students) {
 			final String username = "yeabkalaw@gmail.com";
-			final String password = "temppasswor";
+			final String password = "the_temp_pass";
 
 			Properties props = new Properties();
 			props.put("mail.smtp.auth", "true");
